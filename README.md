@@ -2,6 +2,8 @@
 
 Code and anonymized data behind [Does Reddit have an astroturfing problem? What the data suggests](https://www.petervijeh.com/projects/reddit-astroturf).
 
+The comments come from the scraper behind [New Knife Day](https://new.knife.day), a site I run for knife collectors that tracks which knives people on Reddit are buying and arguing about.
+
 The question: in the "what should I buy" threads of six knife subreddits, do a few brand-heavy accounts write more of the brand recommendations than chance would give them? And if they do, do their full Reddit histories look like prepared paid accounts or like ordinary users?
 
 ## Recompute the headline numbers
@@ -28,10 +30,12 @@ The account-history comparison (`account-summary.json`, 4.5-year median account 
 - `data/commercial-signals/audit.json`: comment, post and author counts per subreddit and month.
 - `data/commercial-signals/README.md`: how each file was produced, and what the numbers do not say.
 - `scripts/`: the Python steps. `signals_baseline.py` runs on the published data. `ner_comments.py`, `select_accounts.py` and `account_features.py` need the private files and are here so you can read exactly what they do.
-- `collection/`: the TypeScript commands that pulled comments from MongoDB, hashed authors and fetched account histories. They are copied from the private New Knife Day scraper and import its database and Reddit services, so they will not run on their own. They are included to show the thread-intent regex, the bot filter and the hashing.
+- `collection/`: the TypeScript commands that pulled comments from MongoDB, hashed authors and fetched account histories. They are copied from the private [New Knife Day](https://new.knife.day) scraper and import its database and Reddit services, so they will not run on their own. They are included to show the thread-intent regex, the bot filter and the hashing.
 
 ## What is not here, and why
 
 Comment text, usernames, comment IDs, account histories and the brand-code key. Reddit's Data API terms do not allow republishing content pulled through the API, and the article names no account and no brand. The 46 per-account history rows stay private because account age and karma are enough to re-identify someone who has the same corpus.
 
 The brand tags come from the stock `urchade/gliner_multi-v2.1` model, not a knife-tuned one, and neither the brand tags nor the buying-thread regex have been checked against hand labels yet. Every percentage here is a percentage of machine labels.
+
+The write-up with the charts and caveats in context: [petervijeh.com/projects/reddit-astroturf](https://www.petervijeh.com/projects/reddit-astroturf).

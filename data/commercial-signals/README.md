@@ -33,7 +33,7 @@ comma-separated list of Peter's own accounts; they stay in authors.csv with
 - `authors.csv`: one row per author with 10 or more comments. `author_hash` is the first 16 hex
   chars of sha256(salt:username).
 - `mentions.csv`: one row per (comment, brand) pair where GLiNER found a brand or model and the
-  alias dictionary resolved it to a brand in the New Knife Day catalog. `brand_code` is B001,
+  alias dictionary resolved it to a brand in the [New Knife Day](https://new.knife.day) catalog. `brand_code` is B001,
   B002, ... in order of total mention count.
 - `results.json`, `results.md`: the tail definition, observed shares, shuffled baseline and
   bootstrap intervals.
