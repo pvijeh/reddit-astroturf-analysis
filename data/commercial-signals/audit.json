@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-09-26T04:13:38.093Z",
+  "totals": {
+    "posts": 6675,
+    "comments": 51129,
+    "commentsWithoutPost": 0,
+    "duplicateRedditIds": 0,
+    "botOrDeletedComments": 820,
+    "uniqueAuthors": 11013,
+    "authorsWith10PlusComments": 987,
+    "authorsWith5PlusComments": 2179
+  },
+  "mentionCoverage": {
+    "mentionRows": 44549,
+    "mentionRowsWithCommentId": 18047,
+    "distinctCommentIdsInMentionRows": 8887,
+    "scrapedCommentsWithMentionRows": 1476,
+    "shareOfScrapedComments": 0.028868157014610103,
+    "note": "Most mention rows point at comments the multipass pipeline fetched live and never stored in `comments`. The join covers a small share of the scraped corpus, so the signals run does its own NER pass over `comments` (scripts/ner_comments.py)."
+  },
+  "postsBySubreddit": {
+    "knives": 2130,
+    "knifeclub": 1482,
+    "japaneseknives": 1016,
+    "FixedBladeEdc": 1011,
+    "chefknives": 1011,
+    "KnifeSteels": 25
+  },
+  "commentsBySubreddit": {
+    "knives": {
+      "comments": 21974,
+      "withMentionRows": 678
+    },
+    "knifeclub": {
+      "comments": 11638,
+      "withMentionRows": 259
+    },
+    "chefknives": {
+      "comments": 6993,
+      "withMentionRows": 127
+    },
+    "FixedBladeEdc": {
+      "comments": 5682,
+      "withMentionRows": 343
+    },
+    "japaneseknives": {
+      "comments": 4760,
+      "withMentionRows": 69
+    },
+    "KnifeSteels": {
+      "comments": 82,
+      "withMentionRows": 0
+    }
+  },
+  "commentsByMonth": {
+    "2022-04": 30,
+    "2022-05": 9,
+    "2022-07": 7,
+    "2022-08": 4,
+    "2022-09": 2,
+    "2023-01": 10,
+    "2024-04": 1,
+    "2024-05": 1,
+    "2024-07": 1,
+    "2024-10": 5,
+    "2025-02": 4,
+    "2025-06": 1,
+    "2025-09": 553,
+    "2025-10": 932,
+    "2025-11": 1109,
+    "2025-12": 1784,
+    "2026-01": 1816,
+    "2026-02": 1366,
+    "2026-03": 1690,
+    "2026-04": 1581,
+    "2026-05": 1833,
+    "2026-06": 1456,
+    "2026-07": 1944,
+    "2026-08": 12873,
+    "2026-09": 22117
+  }
+}
