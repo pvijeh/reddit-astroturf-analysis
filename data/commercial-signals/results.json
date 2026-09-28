@@ -1,0 +1,215 @@
+{
+  "inputs": {
+    "authors_10plus": 987,
+    "owner_accounts_excluded": 0,
+    "tail_size": 49,
+    "brand_mentions_10plus": 4937,
+    "purchase_thread_mentions_10plus": 1471,
+    "under10_mentions_not_used": 3571,
+    "shuffles": 1000,
+    "bootstrap": 1000
+  },
+  "headline": {
+    "share_of_purchase_thread_brand_mentions_from_tail": 0.1128,
+    "bootstrap_ci95": [
+      0.0657,
+      0.1795
+    ],
+    "shuffled_mean": 0.0786,
+    "shuffled_ci95": [
+      0.0632,
+      0.1006
+    ],
+    "p_value": 0.003
+  },
+  "tail_profile": {
+    "median_comments": 12.0,
+    "median_brand_mention_rate": 0.273,
+    "median_top_brand_share": 0.667,
+    "median_distinct_brands": 2.0,
+    "median_score": 1.0,
+    "all_10plus_median_brand_mention_rate": 0.097,
+    "all_10plus_median_top_brand_share": 0.5,
+    "all_10plus_median_score": 2.0
+  },
+  "per_subreddit": [
+    {
+      "subreddit": "FixedBladeEdc",
+      "purchase_thread_mentions": 94,
+      "observed": 0.0851,
+      "shuffled_mean": 0.0872,
+      "shuffled_p95": 0.1277,
+      "p_value": 0.4815
+    },
+    {
+      "subreddit": "chefknives",
+      "purchase_thread_mentions": 475,
+      "observed": 0.1495,
+      "shuffled_mean": 0.0774,
+      "shuffled_p95": 0.1263,
+      "p_value": 0.011
+    },
+    {
+      "subreddit": "japaneseknives",
+      "purchase_thread_mentions": 132,
+      "observed": 0.1515,
+      "shuffled_mean": 0.1428,
+      "shuffled_p95": 0.2348,
+      "p_value": 0.4366
+    },
+    {
+      "subreddit": "knifeclub",
+      "purchase_thread_mentions": 274,
+      "observed": 0.1241,
+      "shuffled_mean": 0.0731,
+      "shuffled_p95": 0.1095,
+      "p_value": 0.01
+    },
+    {
+      "subreddit": "knives",
+      "purchase_thread_mentions": 496,
+      "observed": 0.0665,
+      "shuffled_mean": 0.064,
+      "shuffled_p95": 0.0827,
+      "p_value": 0.4026
+    }
+  ],
+  "per_brand": [
+    {
+      "brand_code": "B003",
+      "purchase_thread_mentions": 77,
+      "observed": 0.3117,
+      "shuffled_mean": 0.0798,
+      "shuffled_p95": 0.1389,
+      "p_value": 0.001
+    },
+    {
+      "brand_code": "B004",
+      "purchase_thread_mentions": 115,
+      "observed": 0.2609,
+      "shuffled_mean": 0.0819,
+      "shuffled_p95": 0.1408,
+      "p_value": 0.001
+    },
+    {
+      "brand_code": "B031",
+      "purchase_thread_mentions": 22,
+      "observed": 0.2273,
+      "shuffled_mean": 0.0639,
+      "shuffled_p95": 0.1875,
+      "p_value": 0.027
+    },
+    {
+      "brand_code": "B001",
+      "purchase_thread_mentions": 147,
+      "observed": 0.2041,
+      "shuffled_mean": 0.1183,
+      "shuffled_p95": 0.1667,
+      "p_value": 0.007
+    },
+    {
+      "brand_code": "B016",
+      "purchase_thread_mentions": 30,
+      "observed": 0.2,
+      "shuffled_mean": 0.0726,
+      "shuffled_p95": 0.1667,
+      "p_value": 0.022
+    },
+    {
+      "brand_code": "B012",
+      "purchase_thread_mentions": 21,
+      "observed": 0.1429,
+      "shuffled_mean": 0.0667,
+      "shuffled_p95": 0.1767,
+      "p_value": 0.1089
+    },
+    {
+      "brand_code": "B005",
+      "purchase_thread_mentions": 36,
+      "observed": 0.1111,
+      "shuffled_mean": 0.0709,
+      "shuffled_p95": 0.16,
+      "p_value": 0.1958
+    },
+    {
+      "brand_code": "B006",
+      "purchase_thread_mentions": 42,
+      "observed": 0.0952,
+      "shuffled_mean": 0.0748,
+      "shuffled_p95": 0.158,
+      "p_value": 0.3127
+    },
+    {
+      "brand_code": "B007",
+      "purchase_thread_mentions": 35,
+      "observed": 0.0857,
+      "shuffled_mean": 0.0743,
+      "shuffled_p95": 0.1463,
+      "p_value": 0.3576
+    },
+    {
+      "brand_code": "B002",
+      "purchase_thread_mentions": 74,
+      "observed": 0.0811,
+      "shuffled_mean": 0.0947,
+      "shuffled_p95": 0.1441,
+      "p_value": 0.6683
+    },
+    {
+      "brand_code": "B008",
+      "purchase_thread_mentions": 27,
+      "observed": 0.0741,
+      "shuffled_mean": 0.0698,
+      "shuffled_p95": 0.1667,
+      "p_value": 0.4565
+    },
+    {
+      "brand_code": "B011",
+      "purchase_thread_mentions": 45,
+      "observed": 0.0667,
+      "shuffled_mean": 0.0721,
+      "shuffled_p95": 0.1616,
+      "p_value": 0.5285
+    },
+    {
+      "brand_code": "B025",
+      "purchase_thread_mentions": 22,
+      "observed": 0.0455,
+      "shuffled_mean": 0.0671,
+      "shuffled_p95": 0.2,
+      "p_value": 0.6074
+    },
+    {
+      "brand_code": "B026",
+      "purchase_thread_mentions": 23,
+      "observed": 0.0435,
+      "shuffled_mean": 0.0661,
+      "shuffled_p95": 0.2143,
+      "p_value": 0.5644
+    },
+    {
+      "brand_code": "B009",
+      "purchase_thread_mentions": 21,
+      "observed": 0.0,
+      "shuffled_mean": 0.0739,
+      "shuffled_p95": 0.1667,
+      "p_value": 1.0
+    },
+    {
+      "brand_code": "B010",
+      "purchase_thread_mentions": 32,
+      "observed": 0.0,
+      "shuffled_mean": 0.0698,
+      "shuffled_p95": 0.1667,
+      "p_value": 1.0
+    },
+    {
+      "brand_code": "B022",
+      "purchase_thread_mentions": 22,
+      "observed": 0.0,
+      "shuffled_mean": 0.0666,
+      "shuffled_p95": 0.2,
+      "p_value": 1.0
+    }
+  ]
+}
